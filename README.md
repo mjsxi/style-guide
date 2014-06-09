@@ -1,4 +1,2 @@
-style-guide
-===========
-
-voxdotcom styleguide
+voxdotcom-style-guide
+=====================
