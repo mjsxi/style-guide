@@ -14,6 +14,9 @@ set :absolute_prefix, "http://localhost:4567"
 
 activate :livereload
 
+activate :chorus
+activate :directory_indexes
+
 configure :build do
    set :css_dir, 'stylesheets'
    set :js_dir, 'javascripts'
@@ -21,6 +24,4 @@ configure :build do
    activate :minify_javascript
    activate :minify_css
    activate :relative_assets
-   activate :chorus
-   activate :directory_indexes
 end
