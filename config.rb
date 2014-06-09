@@ -20,9 +20,6 @@ activate :chorus
 activate :directory_indexes
 
 configure :build do
-   set :css_dir, 'stylesheets'
-   set :js_dir, 'javascripts'
-   set :images_dir, 'images'
    activate :minify_javascript
    activate :minify_css
    activate :relative_assets
